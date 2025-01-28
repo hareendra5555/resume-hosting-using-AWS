@@ -37,20 +37,7 @@ The website is accessible via `https://therealhareendra.com`.
    - Upload the website files (`index.html`, `style.css`, `error.html`) to the bucket.
    - Apply the bucket policy to allow public read access.
 
-   Example S3 Bucket Policy:
-   
-   {
-       "Version": "2012-10-17",
-       "Statement": [
-           {
-               "Sid": "PublicReadGetObject",
-               "Effect": "Allow",
-               "Principal": "*",
-               "Action": "s3:GetObject",
-               "Resource": "arn:aws:s3:::myresume/*"
-           }
-       ]
-   }
+  
 
 ### 2. **Set Up CloudFront**
 Create a CloudFront distribution with the S3 bucket as the origin.
