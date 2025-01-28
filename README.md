@@ -33,8 +33,8 @@ The website is accessible via `https://therealhareendra.com`.
 ## Steps to Deploy
 
 ### 1. **Create an S3 Bucket**
-   - Create an S3 bucket named `myresume` and configure it for static website hosting.
-   - Upload the website files (`index.html`, `style.css`, `error.html`) to the bucket.
+   - Create an S3 bucket named `therealhareendra.com` and configure it for static website hosting.
+   - Upload the website files (`detailed-resume.html`, `style.css`, `error.html`) to the bucket.
    - Apply the bucket policy to allow public read access.
 
   
@@ -57,4 +57,4 @@ Request a public certificate for therealhareendra.com using ACM.
 Validate the certificate using DNS validation.
 
 ### 5. **Deploy the Website**
-Once everything is set up, the website will be accessible via https://therealhareendra.com.
+Once everything is set up, the website will be accessible via https://customdomain.com.
